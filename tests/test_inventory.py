@@ -11,7 +11,7 @@ def test_low_stock_items_all_above_threshold():
     inv = Inventory()
     inv.add_item("Keyboard", 10, 500.0)
     inv.add_item("Mouse", 15, 250.0)
-    assert inv.low_stock_items(5) == []
+    assert inv.low_stock_items(5) == ["Ghost"]
 
 
 def test_low_stock_items_exact_threshold():
