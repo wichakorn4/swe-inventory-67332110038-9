@@ -15,6 +15,8 @@ def bulk_total(prices: list, discount_percent: float) -> float:
 
 def average_price(prices: list) -> float:
     """คืนราคาเฉลี่ยของรายการสินค้า"""
+    if not prices:
+        return 0.0
     return sum(prices) / len(prices)
 
 
