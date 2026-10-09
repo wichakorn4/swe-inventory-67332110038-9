@@ -1,0 +1,13 @@
+mockup.drawio
+
+หมายเหตุ:
+- ไฟล์ Mockup ออกแบบโดยใช้ draw.io (Diagrams.net)
+- มีหน้าจอครบ 2 หน้าหลักตามข้อกำหนด:
+  1) แดชบอร์ดภาพรวมคลังสินค้า (Dashboard Screen) พร้อมตัวบ่งชี้สินค้าสองชนิด (Physical & Digital) และตารางเตือนสต็อกต่ำ
+  2) แบบฟอร์มเพิ่มสินค้าใหม่ (Add Product Screen) พร้อม Persistent Labels, Dynamic fields สำหรับสินค้าดิจิทัล, Validation Error State, และ Success Notification Banner
+- ชุดสีผ่านเกณฑ์ WCAG 2.1 Level AA:
+  * Primary: #1E40AF (Contrast Ratio > 7:1 บนพื้นขาว)
+  * Success: #15803D (Contrast Ratio > 4.5:1 บนพื้นขาว)
+  * Warning: #B45309 (Contrast Ratio > 4.5:1 บนพื้นขาว)
+  * Text: #111827 (Contrast Ratio > 15:1 บนพื้นขาว)
+- สามารถเปิดดูและแก้ไขไฟล์ mockup.drawio ได้ผ่าน https://app.diagrams.net หรือติดตั้ง Extension "Draw.io Integration" ใน VS Code

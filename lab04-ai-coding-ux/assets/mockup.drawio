@@ -1,0 +1,236 @@
+<mxfile host="app.diagrams.net" modified="2026-10-10T00:00:00.000Z" agent="Mozilla/5.0" version="21.0.0" type="device">
+  <diagram id="dashboard-mockup" name="1. Dashboard Screen">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" background="#F9FAFB" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Top Navbar -->
+        <mxCell id="nav_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="30" width="1120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_title" value="&lt;b&gt;SWE INVENTORY SYSTEM&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="60" y="45" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_menu1" value="แดชบอร์ด (Dashboard)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=none;fontColor=#1E40AF;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="42" width="160" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_menu2" value="รายการสินค้า (Products)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontColor=#E0E7FF;" vertex="1" parent="1">
+          <mxGeometry x="540" y="45" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nav_user" value="ผู้ใช้: คุณสุรศักดิ์ (พนักงานคลัง) | ออกจากระบบ" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="830" y="45" width="310" height="30" as="geometry" />
+        </mxCell>
+        <!-- Page Title & CTA -->
+        <mxCell id="page_title" value="ภาพรวมคลังสินค้า (Inventory Dashboard)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=22;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="page_subtitle" value="อัปเดตข้อมูลล่าสุด: 10 ตุลาคม 2569 เวลา 08:30 น. | ระบบรองรับสินค้าจับต้องได้และไฟล์ดิจิทัล" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#4B5563;" vertex="1" parent="1">
+          <mxGeometry x="40" y="145" width="550" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_add_product" value="+ เพิ่มสินค้าใหม่ (Add Product)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E40AF;strokeColor=#1E40AF;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="115" width="230" height="45" as="geometry" />
+        </mxCell>
+        <!-- Metric Cards -->
+        <!-- Card 1 -->
+        <mxCell id="card1_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="card1_lbl" value="มูลค่าสินค้าในคลังทั้งหมด" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="55" y="195" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="card1_val" value="฿ 1,450,200.00" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="55" y="218" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="card1_sub" value="สถานะ: สภาพคล่องปกติ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#15803D;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="255" width="200" height="20" as="geometry" />
+        </mxCell>
+        <!-- Card 2 -->
+        <mxCell id="card2_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="180" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="card2_lbl" value="สินค้าจับต้องได้ (Physical)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="340" y="195" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="card2_val" value="1,240 ชิ้น" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="340" y="218" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="card2_sub" value="ตรวจนับจริง 18 รายการ (SKUs)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#4B5563;" vertex="1" parent="1">
+          <mxGeometry x="340" y="255" width="200" height="20" as="geometry" />
+        </mxCell>
+        <!-- Card 3 -->
+        <mxCell id="card3_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="180" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="card3_lbl" value="สินค้าดิจิทัล (Digital Files)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#6B7280;" vertex="1" parent="1">
+          <mxGeometry x="625" y="195" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="card3_val" value="8 รายการ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="625" y="218" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="card3_sub" value="ไม่จำกัดสต็อก (ส่งมอบผ่านลิงก์/คีย์)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#1E40AF;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="255" width="220" height="20" as="geometry" />
+        </mxCell>
+        <!-- Card 4 -->
+        <mxCell id="card4_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF3C7;strokeColor=#F59E0B;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="895" y="180" width="265" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="card4_lbl" value="แจ้งเตือน: สต็อกใกล้หมด (Low Stock)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#B45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="910" y="195" width="230" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="card4_val" value="[!] 3 รายการ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#B45309;" vertex="1" parent="1">
+          <mxGeometry x="910" y="218" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="card4_sub" value="เกณฑ์คงเหลือ &lt;= 5 ชิ้น (ต้องเติมด่วน)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#B45309;" vertex="1" parent="1">
+          <mxGeometry x="910" y="255" width="220" height="20" as="geometry" />
+        </mxCell>
+        <!-- Low Stock Alert Section -->
+        <mxCell id="sec1_title" value="[!] รายการสินค้าสต็อกต่ำที่ต้องเติมด่วน (เกณฑ์ &lt;= 5 ชิ้น)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#B45309;" vertex="1" parent="1">
+          <mxGeometry x="40" y="315" width="460" height="30" as="geometry" />
+        </mxCell>
+        <!-- Alert Table Header -->
+        <mxCell id="th_alert" value="  รหัสสินค้า             ชื่อสินค้า                                  ชนิดสินค้า           คงเหลือ         เกณฑ์เตือน        การดำเนินการ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#D1D5DB;align=left;fontStyle=1;fontColor=#111827;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="350" width="1120" height="40" as="geometry" />
+        </mxCell>
+        <!-- Alert Table Rows -->
+        <mxCell id="tr_alert1" value="  IT-0042            สาย LAN Cat6 ความยาว 5 เมตร             [Physical]            2 ชิ้น              5 ชิ้น" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;align=left;fontColor=#111827;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="390" width="1120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_restock1" value="+ เติมสต็อก" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E40AF;strokeColor=#1E40AF;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="397" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tr_alert2" value="  IT-0089            เราเตอร์ Wi-Fi 6 Gigabit Router           [Physical]            3 ชิ้น              5 ชิ้น" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F9FAFB;strokeColor=#E5E7EB;align=left;fontColor=#111827;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="435" width="1120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_restock2" value="+ เติมสต็อก" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E40AF;strokeColor=#1E40AF;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="442" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tr_alert3" value="  IT-0105            หัวแปลงสัญญาณ HDMI to VGA Adapter      [Physical]            5 ชิ้น              5 ชิ้น" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;align=left;fontColor=#111827;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="1120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_restock3" value="+ เติมสต็อก" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E40AF;strokeColor=#1E40AF;fontColor=#FFFFFF;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="487" width="110" height="30" as="geometry" />
+        </mxCell>
+        <!-- General Table Section -->
+        <mxCell id="sec2_title" value="รายการสินค้าทั้งหมดในระบบ (Inventory Items Directory)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#111827;" vertex="1" parent="1">
+          <mxGeometry x="40" y="550" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="th_gen" value="  รหัสสินค้า             ชื่อสินค้า                                  ชนิดสินค้า           คงเหลือ         ราคา/หน่วย      รูปแบบการส่งมอบ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#D1D5DB;align=left;fontStyle=1;fontColor=#111827;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="585" width="1120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tr_gen1" value="  IT-0001            แป้นพิมพ์ Mechanical Keyboard              [Physical]            45 ชิ้น         ฿ 1,290.00       เบิกจัดส่งจากคลังพัสดุ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;align=left;fontColor=#111827;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="625" width="1120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tr_gen2" value="  DG-0001           License Key Windows 11 Pro 64-bit         [Digital]             N/A (ไฟล์)     ฿ 3,500.00       ออกลิงก์/คีย์ทันทีหลังยืนยันสั่งซื้อ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F9FAFB;strokeColor=#E5E7EB;align=left;fontColor=#111827;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="670" width="1120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="tr_gen3" value="  DG-0002           คู่มือปฏิบัติการตั้งค่า Server Linux (PDF)       [Digital]             N/A (ไฟล์)     ฿ 290.00         ดาวน์โหลดทันทีหลังสั่งซื้อ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#E5E7EB;align=left;fontColor=#111827;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="40" y="715" width="1120" height="45" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram id="add-product-mockup" name="2. Add Product Screen">
+    <mxGraphModel dx="1422" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="950" background="#F9FAFB" math="0" shadow="0">
+      <root>
+        <mxCell id="100" />
+        <mxCell id="101" parent="100" />
+        <!-- Top Navbar -->
+        <mxCell id="ap_nav_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1E40AF;strokeColor=none;" vertex="1" parent="101">
+          <mxGeometry x="40" y="30" width="1120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ap_nav_title" value="&lt;b&gt;SWE INVENTORY SYSTEM&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontColor=#FFFFFF;" vertex="1" parent="101">
+          <mxGeometry x="60" y="45" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ap_nav_user" value="ผู้ใช้: คุณสุรศักดิ์ (พนักงานคลัง) | ออกจากระบบ" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FFFFFF;" vertex="1" parent="101">
+          <mxGeometry x="830" y="45" width="310" height="30" as="geometry" />
+        </mxCell>
+        <!-- Success Notification Banner -->
+        <mxCell id="banner_success" value="  [V] สำเร็จ: เพิ่มสินค้า &quot;สาย LAN Cat6 5m&quot; (รหัส IT-0042) บันทึกเข้าสู่ระบบคลังสินค้าเรียบร้อยแล้ว!" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCFCE7;strokeColor=#15803D;fontColor=#15803D;fontSize=14;fontStyle=1;align=left;" vertex="1" parent="101">
+          <mxGeometry x="40" y="110" width="1120" height="50" as="geometry" />
+        </mxCell>
+        <!-- Form Container -->
+        <mxCell id="form_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#D1D5DB;shadow=1;" vertex="1" parent="101">
+          <mxGeometry x="150" y="180" width="900" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="form_title" value="แบบฟอร์มบันทึกสินค้าใหม่ (Add New Product)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#111827;" vertex="1" parent="101">
+          <mxGeometry x="190" y="205" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="form_desc" value="กรอกข้อมูลสินค้าเพื่อบันทึกเข้าระบบ โดยช่องที่มีเครื่องหมายดอกจัน (*) เป็นข้อมูลบังคับ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#6B7280;" vertex="1" parent="101">
+          <mxGeometry x="190" y="235" width="560" height="20" as="geometry" />
+        </mxCell>
+        <!-- Field 1: Product Type -->
+        <mxCell id="lbl_type" value="1. ชนิดสินค้า (Product Type) *" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#111827;" vertex="1" parent="101">
+          <mxGeometry x="190" y="270" width="280" height="25" as="geometry" />
+        </mxCell>
+        <!-- Radio 1: Physical -->
+        <mxCell id="radio_phy" value="  (o) สินค้าจับต้องได้ (Physical Goods) - มีสต็อกจริง, ตัดยอดเมื่อขาย, มีแจ้งเตือนสต็อกต่ำ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#1E40AF;align=left;fontColor=#1E40AF;fontSize=13;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="190" y="300" width="390" height="42" as="geometry" />
+        </mxCell>
+        <!-- Radio 2: Digital -->
+        <mxCell id="radio_dig" value="  ( ) สินค้าดิจิทัล (Digital Goods / License) - ไฟล์ดาวน์โหลด/รหัส, ไม่จำกัดสต็อก" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F9FAFB;strokeColor=#D1D5DB;align=left;fontColor=#374151;fontSize=13;" vertex="1" parent="101">
+          <mxGeometry x="600" y="300" width="410" height="42" as="geometry" />
+        </mxCell>
+        <!-- Field 2: SKU -->
+        <mxCell id="lbl_sku" value="2. รหัสสินค้า (SKU / Product Code) *" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#111827;" vertex="1" parent="101">
+          <mxGeometry x="190" y="360" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_sku" value="  IT-NET-0042" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;align=left;fontColor=#111827;fontSize=14;" vertex="1" parent="101">
+          <mxGeometry x="190" y="390" width="390" height="42" as="geometry" />
+        </mxCell>
+        <!-- Field 3: Category -->
+        <mxCell id="lbl_cat" value="3. หมวดหมู่สินค้า (Category) *" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#111827;" vertex="1" parent="101">
+          <mxGeometry x="600" y="360" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_cat" value="  อุปกรณ์เครือข่าย (Network &amp; Accessories)                         [ v ]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;align=left;fontColor=#111827;fontSize=14;" vertex="1" parent="101">
+          <mxGeometry x="600" y="390" width="410" height="42" as="geometry" />
+        </mxCell>
+        <!-- Field 4: Name -->
+        <mxCell id="lbl_name" value="4. ชื่อสินค้า (Product Name) *" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#111827;" vertex="1" parent="101">
+          <mxGeometry x="190" y="450" width="280" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_name" value="  " style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEF2F2;strokeColor=#DC2626;align=left;fontColor=#111827;fontSize=14;" vertex="1" parent="101">
+          <mxGeometry x="190" y="480" width="820" height="42" as="geometry" />
+        </mxCell>
+        <!-- Validation Error Message for Name -->
+        <mxCell id="err_name" value="[X] ข้อผิดพลาด: กรุณากรอกชื่อสินค้า ความยาวอย่างน้อย 3 ตัวอักษร (ห้ามเว้นว่าง)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#DC2626;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="190" y="525" width="550" height="20" as="geometry" />
+        </mxCell>
+        <!-- Field 5: Quantity -->
+        <mxCell id="lbl_qty" value="5. จำนวนเริ่มต้นในสต็อก (Initial Stock) *" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#111827;" vertex="1" parent="101">
+          <mxGeometry x="190" y="555" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_qty" value="  25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;align=left;fontColor=#111827;fontSize=14;" vertex="1" parent="101">
+          <mxGeometry x="190" y="585" width="390" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="hint_qty" value="* หากเลือก &quot;สินค้าดิจิทัล&quot; ช่องนี้จะถูกปิด (Disabled) ไม่ต้องระบุจำนวน" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#6B7280;" vertex="1" parent="101">
+          <mxGeometry x="190" y="630" width="390" height="20" as="geometry" />
+        </mxCell>
+        <!-- Field 6: Price -->
+        <mxCell id="lbl_price" value="6. ราคาขายต่อหน่วย (Unit Price บาท) *" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#111827;" vertex="1" parent="101">
+          <mxGeometry x="600" y="555" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_price" value="  350.00" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#9CA3AF;align=left;fontColor=#111827;fontSize=14;" vertex="1" parent="101">
+          <mxGeometry x="600" y="585" width="410" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="hint_price" value="ราคาต้องเป็นตัวเลขมากกว่าศูนย์ (บาท)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontColor=#6B7280;" vertex="1" parent="101">
+          <mxGeometry x="600" y="630" width="300" height="20" as="geometry" />
+        </mxCell>
+        <!-- Field 7: Attachment -->
+        <mxCell id="lbl_file" value="7. รูปภาพสินค้าหรือไฟล์ดิจิทัล (Attachment - ไม่บังคับ)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#111827;" vertex="1" parent="101">
+          <mxGeometry x="190" y="660" width="380" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="inp_file" value="  [ เลือกไฟล์... ]  cat6_cable_5m.png (ขนาด 1.2 MB)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F9FAFB;strokeColor=#D1D5DB;align=left;fontColor=#4B5563;fontSize=13;" vertex="1" parent="101">
+          <mxGeometry x="190" y="690" width="820" height="42" as="geometry" />
+        </mxCell>
+        <!-- Action Buttons -->
+        <mxCell id="btn_cancel" value="ยกเลิก (Cancel)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#D1D5DB;fontColor=#374151;fontSize=14;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="670" y="770" width="150" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="btn_submit" value="บันทึกสินค้า (Save Product)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1E40AF;strokeColor=#1E40AF;fontColor=#FFFFFF;fontSize=14;fontStyle=1;" vertex="1" parent="101">
+          <mxGeometry x="840" y="770" width="170" height="48" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
